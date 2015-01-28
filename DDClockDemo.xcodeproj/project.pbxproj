@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6342AC0F1A75CC8C008123A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342AC0E1A75CC8C008123A0 /* main.m */; };
+		6342AC121A75CC8C008123A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342AC111A75CC8C008123A0 /* AppDelegate.m */; };
+		6342AC151A75CC8C008123A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342AC141A75CC8C008123A0 /* ViewController.m */; };
+		6342AC181A75CC8C008123A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6342AC161A75CC8C008123A0 /* Main.storyboard */; };
+		6342AC1A1A75CC8C008123A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6342AC191A75CC8C008123A0 /* Images.xcassets */; };
+		6342AC1D1A75CC8C008123A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6342AC1B1A75CC8C008123A0 /* LaunchScreen.xib */; };
+		6342AC291A75CC8C008123A0 /* DDClockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342AC281A75CC8C008123A0 /* DDClockDemoTests.m */; };
+		636222D11A78BEBA00239B9B /* DDClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 636222D01A78BEBA00239B9B /* DDClock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6342AC231A75CC8C008123A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6342AC011A75CC8C008123A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6342AC081A75CC8C008123A0;
+			remoteInfo = DDClockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6342AC091A75CC8C008123A0 /* DDClockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDClockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6342AC0D1A75CC8C008123A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6342AC0E1A75CC8C008123A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6342AC101A75CC8C008123A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6342AC111A75CC8C008123A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6342AC131A75CC8C008123A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6342AC141A75CC8C008123A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6342AC171A75CC8C008123A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6342AC191A75CC8C008123A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6342AC1C1A75CC8C008123A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6342AC221A75CC8C008123A0 /* DDClockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDClockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6342AC271A75CC8C008123A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6342AC281A75CC8C008123A0 /* DDClockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDClockDemoTests.m; sourceTree = "<group>"; };
+		636222CF1A78BEBA00239B9B /* DDClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDClock.h; path = DDClock/DDClock.h; sourceTree = "<group>"; };
+		636222D01A78BEBA00239B9B /* DDClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDClock.m; path = DDClock/DDClock.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6342AC061A75CC8C008123A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6342AC1F1A75CC8C008123A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6342AC001A75CC8C008123A0 = {
+			isa = PBXGroup;
+			children = (
+				636222D21A78BEC200239B9B /* DDClock */,
+				6342AC0B1A75CC8C008123A0 /* DDClockDemo */,
+				6342AC251A75CC8C008123A0 /* DDClockDemoTests */,
+				6342AC0A1A75CC8C008123A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6342AC0A1A75CC8C008123A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6342AC091A75CC8C008123A0 /* DDClockDemo.app */,
+				6342AC221A75CC8C008123A0 /* DDClockDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6342AC0B1A75CC8C008123A0 /* DDClockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6342AC101A75CC8C008123A0 /* AppDelegate.h */,
+				6342AC111A75CC8C008123A0 /* AppDelegate.m */,
+				6342AC131A75CC8C008123A0 /* ViewController.h */,
+				6342AC141A75CC8C008123A0 /* ViewController.m */,
+				6342AC161A75CC8C008123A0 /* Main.storyboard */,
+				6342AC191A75CC8C008123A0 /* Images.xcassets */,
+				6342AC1B1A75CC8C008123A0 /* LaunchScreen.xib */,
+				6342AC0C1A75CC8C008123A0 /* Supporting Files */,
+			);
+			path = DDClockDemo;
+			sourceTree = "<group>";
+		};
+		6342AC0C1A75CC8C008123A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6342AC0D1A75CC8C008123A0 /* Info.plist */,
+				6342AC0E1A75CC8C008123A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6342AC251A75CC8C008123A0 /* DDClockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6342AC281A75CC8C008123A0 /* DDClockDemoTests.m */,
+				6342AC261A75CC8C008123A0 /* Supporting Files */,
+			);
+			path = DDClockDemoTests;
+			sourceTree = "<group>";
+		};
+		6342AC261A75CC8C008123A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6342AC271A75CC8C008123A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		636222D21A78BEC200239B9B /* DDClock */ = {
+			isa = PBXGroup;
+			children = (
+				636222CF1A78BEBA00239B9B /* DDClock.h */,
+				636222D01A78BEBA00239B9B /* DDClock.m */,
+			);
+			name = DDClock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6342AC081A75CC8C008123A0 /* DDClockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6342AC2C1A75CC8C008123A0 /* Build configuration list for PBXNativeTarget "DDClockDemo" */;
+			buildPhases = (
+				6342AC051A75CC8C008123A0 /* Sources */,
+				6342AC061A75CC8C008123A0 /* Frameworks */,
+				6342AC071A75CC8C008123A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDClockDemo;
+			productName = DDClockDemo;
+			productReference = 6342AC091A75CC8C008123A0 /* DDClockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6342AC211A75CC8C008123A0 /* DDClockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6342AC2F1A75CC8C008123A0 /* Build configuration list for PBXNativeTarget "DDClockDemoTests" */;
+			buildPhases = (
+				6342AC1E1A75CC8C008123A0 /* Sources */,
+				6342AC1F1A75CC8C008123A0 /* Frameworks */,
+				6342AC201A75CC8C008123A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6342AC241A75CC8C008123A0 /* PBXTargetDependency */,
+			);
+			name = DDClockDemoTests;
+			productName = DDClockDemoTests;
+			productReference = 6342AC221A75CC8C008123A0 /* DDClockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6342AC011A75CC8C008123A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DavidDay;
+				TargetAttributes = {
+					6342AC081A75CC8C008123A0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6342AC211A75CC8C008123A0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6342AC081A75CC8C008123A0;
+					};
+				};
+			};
+			buildConfigurationList = 6342AC041A75CC8C008123A0 /* Build configuration list for PBXProject "DDClockDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6342AC001A75CC8C008123A0;
+			productRefGroup = 6342AC0A1A75CC8C008123A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6342AC081A75CC8C008123A0 /* DDClockDemo */,
+				6342AC211A75CC8C008123A0 /* DDClockDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6342AC071A75CC8C008123A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6342AC181A75CC8C008123A0 /* Main.storyboard in Resources */,
+				6342AC1D1A75CC8C008123A0 /* LaunchScreen.xib in Resources */,
+				6342AC1A1A75CC8C008123A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6342AC201A75CC8C008123A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6342AC051A75CC8C008123A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636222D11A78BEBA00239B9B /* DDClock.m in Sources */,
+				6342AC151A75CC8C008123A0 /* ViewController.m in Sources */,
+				6342AC121A75CC8C008123A0 /* AppDelegate.m in Sources */,
+				6342AC0F1A75CC8C008123A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6342AC1E1A75CC8C008123A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6342AC291A75CC8C008123A0 /* DDClockDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6342AC241A75CC8C008123A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6342AC081A75CC8C008123A0 /* DDClockDemo */;
+			targetProxy = 6342AC231A75CC8C008123A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6342AC161A75CC8C008123A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6342AC171A75CC8C008123A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6342AC1B1A75CC8C008123A0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6342AC1C1A75CC8C008123A0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6342AC2A1A75CC8C008123A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6342AC2B1A75CC8C008123A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6342AC2D1A75CC8C008123A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DDClockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6342AC2E1A75CC8C008123A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DDClockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6342AC301A75CC8C008123A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DDClockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDClockDemo.app/DDClockDemo";
+			};
+			name = Debug;
+		};
+		6342AC311A75CC8C008123A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DDClockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDClockDemo.app/DDClockDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6342AC041A75CC8C008123A0 /* Build configuration list for PBXProject "DDClockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6342AC2A1A75CC8C008123A0 /* Debug */,
+				6342AC2B1A75CC8C008123A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6342AC2C1A75CC8C008123A0 /* Build configuration list for PBXNativeTarget "DDClockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6342AC2D1A75CC8C008123A0 /* Debug */,
+				6342AC2E1A75CC8C008123A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6342AC2F1A75CC8C008123A0 /* Build configuration list for PBXNativeTarget "DDClockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6342AC301A75CC8C008123A0 /* Debug */,
+				6342AC311A75CC8C008123A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6342AC011A75CC8C008123A0 /* Project object */;
+}
