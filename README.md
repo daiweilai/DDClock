@@ -14,9 +14,11 @@ Setup
 
 Using
 ----------------------------------- 
-		it's quite simple
+it's quite simple
+
 		DDClock *clock = [[DDClock alloc] initWithTheme:DDClockThemeDefault position:CGPointMake(([UIScreen 		mainScreen].bounds.size.width - 200 )/2, 50)];
 		[self.view addSubview:clock];
+
 
 Created By
 ------------
