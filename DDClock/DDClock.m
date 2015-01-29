@@ -22,16 +22,17 @@
     self = [self initWithFrame:CGRectMake(position.x, position.y, DDClockSize, DDClockSize)];
     if (self) {
         _theme = theme;
-        dispatch_async(dispatch_get_main_queue(), ^{
-           [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(onTimer) userInfo:nil repeats:YES];
-        });
+        [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(onTimer) userInfo:nil repeats:YES];
+        
     }
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor clearColor];
     return self;
 }
 //每秒钟刷新视图一次
 -(void)onTimer{
-    [self setNeedsDisplay];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self setNeedsDisplay];
+    });
 }
 
 -(void)drawRect:(CGRect)rect{
