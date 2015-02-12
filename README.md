@@ -21,9 +21,8 @@ it's quite simple
 		[self.view addSubview:clock];
 
 * Or you can create DDClock via custom made
-
+		//let your controller implement DDClockDelegate
 		DDClock *clock = [[DDClock alloc] initWithDelegate:self frame:CGRectMake(100, 860, 120, 150)];
-		clock1.delegate = self;
 		[self.view addSubview:clock];
 		
 		//Then implement the delegate methods!!
