@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DDClock.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <DDLockDelegate>
 
 
 @end
