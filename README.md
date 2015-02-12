@@ -4,7 +4,7 @@ A super simple and beautiful and high-efficiency clock widget. Drawing views usi
 
 Demo Snapshot  
 ----------------------------------- 
-![github](https://github.com/daiweilai/DDClock/blob/master/DDClock.gif "github")
+![github](https://github.com/daiweilai/DDClock/blob/master/DDClock2.gif "github")
 
 Setup
 ----------------------------------- 
@@ -16,6 +16,7 @@ Using
 ----------------------------------- 
 it's quite simple 
 *You can use the themes to create DDClock
+
 		DDClock *clock = [[DDClock alloc] initWithTheme:DDClockThemeDefault frame:CGRectMake(30, 60, 250, 250)];
 		[self.view addSubview:clock];
 
