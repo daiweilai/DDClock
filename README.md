@@ -4,7 +4,7 @@ A super simple and beautiful and high-efficiency clock widget. Drawing views usi
 
 Demo Snapshot  
 ----------------------------------- 
-![github](https://github.com/daiweilai/DDClock/blob/master/DDClock.gif "github")
+![github](https://github.com/daiweilai/DDClock/blob/master/DDClock2.gif "github")
 
 Setup
 ----------------------------------- 
@@ -15,13 +15,15 @@ Setup
 Using
 ----------------------------------- 
 it's quite simple 
-*You can use the themes to create DDClock
+* You can use the themes to create DDClock
+
 		DDClock *clock = [[DDClock alloc] initWithTheme:DDClockThemeDefault frame:CGRectMake(30, 60, 250, 250)];
 		[self.view addSubview:clock];
 
-*Or you can create DDClock via custom made
+* Or you can create DDClock via custom made
+
+		//let your controller implement DDClockDelegate
 		DDClock *clock = [[DDClock alloc] initWithDelegate:self frame:CGRectMake(100, 860, 120, 150)];
-		clock1.delegate = self;
 		[self.view addSubview:clock];
 		
 		//Then implement the delegate methods!!
@@ -35,10 +37,10 @@ it's quite simple
 
 Note
 ----------------------------------- 
-The size of DDClick can be modified in Construction method
-DDClick can only be created into a square , 
-So DDClock will force your size if you put the paras width which not equal the height 
-There is unwise way to update hourAndMinuteHand you shuld modify it
+* The size of DDClick can be modified in Construction method
+* DDClick can only be created into a square , 
+* So DDClock will force your size if you put the paras width which not equal the height 
+* There is unwise way to update hourAndMinuteHand you shuld modify it
 
 Created By
 ------------
