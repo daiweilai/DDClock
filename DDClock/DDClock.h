@@ -21,7 +21,6 @@
 -(UIColor*)fontColor;
 -(UIColor*)secondHandColor;
 -(UIColor*)hourAndMinuteHandColor;
-
 @end
 
 
@@ -39,5 +38,7 @@ typedef NS_ENUM(NSUInteger, DDClockTheme) { //弄一个枚举类型用来更改�
 -(instancetype)initWithDelegate:(id<DDLockDelegate>)delegate frame:(CGRect)frame;
 ///DDClock的构造方法 theme:主题 
 -(instancetype)initWithTheme:(DDClockTheme)theme frame:(CGRect)frame;
+
+
 
 @end
