@@ -26,7 +26,7 @@
 @implementation DDClock
 
 
--(instancetype)initWithDelegate:(id<DDLockDelegate>)delegate frame:(CGRect)frame{
+-(instancetype)initWithDelegate:(id<DDClockDelegate>)delegate frame:(CGRect)frame{
     //防止用户在构建的时候传入的height和widt不一样 因为时钟是圆的所以强制把他们变成长宽一样
     CGFloat size = frame.size.height>frame.size.width?frame.size.height:frame.size.width;
     CGRect realRect = CGRectMake(frame.origin.x, frame.origin.y, size, size);

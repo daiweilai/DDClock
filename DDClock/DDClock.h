@@ -12,7 +12,7 @@
 #error "需要开启ARC"
 #endif
 
-@protocol DDLockDelegate <NSObject>
+@protocol DDClockDelegate <NSObject>
 
 @optional
 -(UIColor*)rimColor;
@@ -26,7 +26,7 @@
 
 @interface DDClock : UIView
 
-@property (weak, nonatomic) id<DDLockDelegate> delegate;
+@property (weak, nonatomic) id<DDClockDelegate> delegate;
 
 typedef NS_ENUM(NSUInteger, DDClockTheme) { //弄一个枚举类型用来更改主题
     DDClockThemeDefault = 0,
@@ -35,7 +35,7 @@ typedef NS_ENUM(NSUInteger, DDClockTheme) { //弄一个枚举类型用来更改�
 };
 
 //DDClock的构造方法 delegate:代理
--(instancetype)initWithDelegate:(id<DDLockDelegate>)delegate frame:(CGRect)frame;
+-(instancetype)initWithDelegate:(id<DDClockDelegate>)delegate frame:(CGRect)frame;
 ///DDClock的构造方法 theme:主题 
 -(instancetype)initWithTheme:(DDClockTheme)theme frame:(CGRect)frame;
 

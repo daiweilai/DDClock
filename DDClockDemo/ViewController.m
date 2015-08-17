@@ -28,8 +28,6 @@
 	[sv addSubview:clock2];
 	[sv addSubview:clock3];
 	
-	
-	
 	//使用自定义的主题构建
 	UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(20,800, 200, 20)];
 	label2.text = @"使用自定义的主题构建";
@@ -37,12 +35,10 @@
 	clock1.delegate = self;
 	[sv addSubview:label2];
 	[sv addSubview:clock4];
-	
-	
 }
 
 
-
+#pragma mark - DDClockDelegate
 -(UIColor *)secondHandColor{
     return  [UIColor redColor];
 }
@@ -52,7 +48,7 @@
 }
 
 -(UIColor *)faceColor{
-	return [UIColor brownColor];
+	return [UIColor blackColor];
 };
 
 -(UIColor *)fontColor{

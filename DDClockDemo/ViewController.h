@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DDClock.h"
 
-@interface ViewController : UIViewController <DDLockDelegate>
+@interface ViewController : UIViewController <DDClockDelegate>
 
 
 @end
